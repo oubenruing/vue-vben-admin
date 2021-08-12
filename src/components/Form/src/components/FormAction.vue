@@ -1,6 +1,6 @@
 <template>
   <a-col v-bind="actionColOpt" v-if="showActionButtonGroup">
-    <div style="width: 100%" :style="{ textAlign: actionColOpt.style.textAlign }">
+    <div style="width: 100%">
       <FormItem>
         <slot name="resetBefore"></slot>
         <Button
